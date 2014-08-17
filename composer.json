@@ -1,10 +1,12 @@
 {
 	"name": "jasonmm/php-rig",
+	"type": "library",
 	"description": "Random Identity Generator written in PHP",
+	"keywords": ["rig", "identity"],
 	"license": "MIT",
 	"authors": [
 		{
-		"name": "jasonmm"
+			"name": "jasonmm"
 		}
 	],
 	"require": {
