@@ -1,5 +1,5 @@
 <?php
-namespace Jasonmm/Rig;
+namespace Jasonmm\Rig;
 
 /**
  * The interface that must be implemented by all data sources 

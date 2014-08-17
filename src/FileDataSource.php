@@ -1,5 +1,5 @@
 <?php
-namespace Jasonmm/Rig;
+namespace Jasonmm\Rig;
 
 /**
  * A data source class for retrieving identity data from standard 

@@ -1,5 +1,5 @@
 <?php
-namespace Jasonmm/Rig;
+namespace Jasonmm\Rig;
 
 
 class PDODataSource implements RigDataSource {

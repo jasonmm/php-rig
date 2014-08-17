@@ -1,5 +1,5 @@
 <?php
-namespace Jasonmm/Rig;
+namespace Jasonmm\Rig;
 
 /**
  * Creates and holds a randomly created identity.
