@@ -1,4 +1,6 @@
 <?php
+namespace Jasonmm/Rig;
+
 /**
  * A data source class for retrieving identity data from standard 
  * RIG .idx files.

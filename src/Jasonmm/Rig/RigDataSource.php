@@ -1,4 +1,6 @@
 <?php
+namespace Jasonmm/Rig;
+
 /**
  * The interface that must be implemented by all data sources 
  * passed to RigIdentity.

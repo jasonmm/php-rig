@@ -1,4 +1,6 @@
 <?php
+namespace Jasonmm/Rig;
+
 
 class PDODataSource implements RigDataSource {
 	private $dsn = '';
