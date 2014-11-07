@@ -5,7 +5,7 @@ namespace Jasonmm\Rig;
  * Creates and holds a randomly created identity.
  */
 class RigIdentity {
-	// Contants used to determine the type of first name generated.
+	// Constants used to determine the type of first name generated.
 	const GENDER_MALE = 1;
 	const GENDER_FEMALE = 2;
 	const GENDER_RANDOM = 3;
@@ -37,6 +37,14 @@ class RigIdentity {
 		$ld = $ds->getLocation();
 		list($this->city, $this->state, $areaCode, $this->zip) = explode(' ', $ld);
 		$this->phone = '('.$areaCode.') '.mt_rand(100,999).'-'.mt_rand(1000,9999);
+	}
+
+	/**
+	 * Allow retrieval of private variable data.
+	 * @param string $varName
+	 */
+	public function __get($varName) {
+		return $this->$varName;
 	}
 }
 

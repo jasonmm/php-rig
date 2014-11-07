@@ -6,7 +6,7 @@ namespace Jasonmm\Rig;
  * RIG .idx files.
  */
 class FileDataSource implements RigDataSource {
-	// These variables hold default filenames for each type.
+	// These variables hold default file names for each type.
 	private $femaleNames = '/usr/share/rig/fnames.idx';
 	private $maleNames = '/usr/share/rig/mnames.idx';
 	private $lastNames = '/usr/share/rig/lnames.idx';
